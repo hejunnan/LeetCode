@@ -7,6 +7,7 @@
  */
 public class Practics1480 {
     public int[] runningSum(int[] nums) {
+        // 垃圾，多用了个数组，空间复杂度上去了。
         int[] results = new int[nums.length];
         results[0] = nums[0];
         for (int i = 1; i < nums.length; i++) {
